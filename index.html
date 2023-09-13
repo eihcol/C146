@@ -5,36 +5,48 @@
         </head>
         <body>
             <a-scene>
-                <a-entity position = "0 15 0">
+                <a-entity position = "0 0 15">
                     <a-camera></a-camera>
                 </a-entity>
-                <a-sky color="black"></a-sky>
+                <a-sky src="galaxy.png"></a-sky>
                 <a-entity>
-                    <a-sphere position="0 0 0" radius="2" color="orange"></a-sphere>
+                    <a-sphere position="0 0 0" radius="2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDoL6JprofyBtKRNh7uv4-jfS0cFLYNhLwshn_9397VA&s"></a-sphere>
                 </a-entity>
                 <a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 20000;">
-                    <a-sphere position="1 0 -5" radius="0.2" color="grey"></a-sphere>
+                    <a-sphere position="1 0 -5" radius="0.2" src="mercury.jpg"></a-sphere>
                 </a-entity>
                 <a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 25000;">
-                    <a-sphere position="3 0 -5" radius="0.4" color="#eed053"></a-sphere>
+                    <a-sphere position="3 0 -5" radius="0.4" src="venus.jpg"></a-sphere>
                 </a-entity>
                 <a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 30000;">
-                    <a-sphere position="5 0 -5" radius="0.5" color="#6b93d6"></a-sphere>
+                    <a-sphere position="5 0 -5" radius="0.5" src="earth.png">
+                        <a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 10000;">
+                            <a-sphere position="1 0 0" radius="0.2" src="moon.jpg"></a-sphere>
+                        </a-entity>
+                    </a-sphere>
                 </a-entity>
                 <a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 35000;">
-                    <a-sphere position="9 0 -5" radius="0.3" color="#ad6242"></a-sphere>
+                    <a-sphere position="7 0 -5" radius="0.3" src="mars.jpg"></a-sphere>
                 </a-entity>
                 <a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 40000;">
-                    <a-sphere position="11 0 -5" radius="1.7" color="#d8ca9d"></a-sphere>
+                    <a-sphere position="11 0 -5" radius="1.7" src="jupiter.jpg">
+                        <a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 10000;">
+                            <a-sphere position="2.5 0 0" radius="0.2" src="jmoon.jpg"></a-sphere>
+                        </a-entity>
+                    </a-sphere>
                 </a-entity>
                 <a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 45000;">
-                    <a-sphere position="15 0 -5" radius="1.2" color="#fae5bf"></a-sphere>
+                    <a-sphere position="15 0 -5" radius="1.2" src="saturn.jpg">
+                        <a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 10000;">
+                            <a-sphere position="2.5 0 0" radius="0.2" src="smoon.jpg"></a-sphere>
+                        </a-entity>
+                    </a-sphere>
                 </a-entity>
                 <a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 50000;">
-                    <a-sphere position="17 0 -5" radius="0.7" color="#ace5ee"></a-sphere>
+                    <a-sphere position="17 0 -5" radius="0.7" src="uranus.jpg"></a-sphere>
                 </a-entity>
                 <a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 55000;">
-                    <a-sphere position="19 0 -5" radius="0.6" color="#3f54ba"></a-sphere>
+                    <a-sphere position="19 0 -5" radius="0.6" src="neptune.jpg"></a-sphere>
                 </a-entity>
             </a-scene>
         </body>
